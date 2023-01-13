@@ -4,7 +4,7 @@ export default function blogSelect(father, text, title, date, img) {
     idBlog = 1;
   }
   async function getData() {
-    const url = "/data/blog.json";
+    const url = "../data/blog.json";
     try {
       const res = await fetch(url);
       const json = await res.json();

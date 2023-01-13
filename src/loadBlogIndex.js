@@ -1,7 +1,7 @@
 export default function loadBlogIndex(father) {
   async function getBlogIndex() {
     let $fragment = document.createDocumentFragment();
-    const url = "/data/blog.json";
+    const url = "../data/blog.json";
     try {
       const res = await fetch(url);
       const json = await res.json();

@@ -8,7 +8,7 @@ export default function blogData(
 ) {
   const $fragment = document.createDocumentFragment();
   async function getBlog() {
-    const url = "/data/blog.json";
+    const url = "../data/blog.json";
     try {
       const res = await fetch(url);
       const json = await res.json();
