@@ -17,7 +17,6 @@ const getProducts = async (father) => {
       let convertId = `${item.id}`;
 
       let validator = storageTranform.find((item) => item.id == convertId);
-      console.log(validator);
       let convertNumber = parseFloat(item.price).toFixed(2);
       let divTemp = document.createElement("div");
       divTemp.className = "products-info-container__second-box";
@@ -136,7 +135,6 @@ const getProducts = async (father) => {
     elementMoreProducts.appendChild(elementMoreProductsChild);
     fatherForMoreProducts.appendChild(elementMoreProducts);
   } catch (err) {
-    console.log(err);
     let myElementErr = document.createElement("h4");
     let mySecondElementErr = document.createElement("h3");
     let myThirdElementErr = document.createElement("div");

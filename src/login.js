@@ -33,7 +33,6 @@ const $password = d.getElementById("password");
 const $viewErrorPassword = d.getElementById("viewErrorPassword");
 const $usernameInput = d.getElementById("usernameInput");
 const $viewErrorUserName = d.getElementById("viewErrorUserName");
-console.log($usernameInput);
 actionLike();
 menuMobile($ham, $menuMobile);
 infoModalProduct(

@@ -51,7 +51,6 @@ export default function loadBlogIndex(father) {
       }
       father.appendChild($fragment);
     } catch (err) {
-      console.log(err);
       const $fragmentTemp = document.createDocumentFragment();
       let myElementErr = document.createElement("h4");
       let mySecondElementErr = document.createElement("h3");

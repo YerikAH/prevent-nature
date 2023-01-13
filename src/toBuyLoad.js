@@ -8,10 +8,7 @@ function toBuyLoad(title, description, paypal, price, whatsapp, image) {
     try {
       let res = await fetch(url);
       let json = await res.json();
-      console.log(id);
       let theProductSelect = json.filter((item) => item.id === id);
-      console.log(json);
-      console.log(theProductSelect);
       let titleJson = theProductSelect[0].name;
       let descriptionJson = theProductSelect[0].description;
       let priceJson = theProductSelect[0].price;

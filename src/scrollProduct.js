@@ -3,7 +3,6 @@ export function scrollProduct() {
     if (e.target.className.includes("productGet")) {
       scrollClick();
     }
-    console.log(e.target.className);
   });
 }
 function scrollClick() {

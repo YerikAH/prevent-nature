@@ -98,11 +98,7 @@ const validateForm = (
       validateName();
     }
     if (registerStatus[0] && registerStatus[1] && registerStatus[2]) {
-      console.log("Form success!! redirect");
-      console.log(registerStatus);
     } else {
-      console.log(registerStatus);
-      console.log("Error form");
     }
   }
 };

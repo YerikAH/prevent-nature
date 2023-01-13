@@ -5,7 +5,6 @@ const wishList = (open, close, modal, fatherCopy, errorJus) => {
   });
   document.addEventListener("click", (e) => {
     let tempVarFat = fatherCopy.parentNode;
-    console.log(e.target.className);
     if (e.target.className == "showAllProducts") {
       openModalAndGetData();
     }
@@ -15,7 +14,6 @@ const wishList = (open, close, modal, fatherCopy, errorJus) => {
     }
 
     if (e.target.className === "clickActionListener03") {
-      console.log(e.target.getAttribute("product-just-id"));
       let allData = JSON.parse(localStorage.getItem("likeProduct")) || [];
       let idTrue = e.target.getAttribute("product-just-id");
       let allDataConvert = allData.filter((item) => item.id !== idTrue);
@@ -59,7 +57,6 @@ const wishList = (open, close, modal, fatherCopy, errorJus) => {
       let res = await fetch(url);
       let json = await res.json();
       let theProductSelect = json.filter((item) => item.id === id);
-      console.log(theProductSelect);
       let myProductWish = document.createElement("div");
       myProductWish.className = "modal-info-wish-item";
       myProductWish.innerHTML = `
@@ -86,7 +83,6 @@ const wishList = (open, close, modal, fatherCopy, errorJus) => {
       $fragment.appendChild(myProductWish);
       fatherCopy.appendChild($fragment);
     } catch (err) {
-      console.log(errorJus);
       errorJus.className = "error-wish-list active-error-wish-list";
       setTimeout(() => (errorJus.className = "error-wish-list"), 5000);
     }

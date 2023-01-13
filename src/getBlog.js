@@ -73,8 +73,6 @@ export default function blogData(
       imagePrincial.setAttribute("src", `${selectBlog["principal_image"]}`);
       linkPrincipal.setAttribute("id-blog", `${selectBlog.id}`);
     } catch (err) {
-      console.log(err);
-      console.log(err);
       const $fragmentTemp = document.createDocumentFragment();
       let myElementErr = document.createElement("h4");
       let mySecondElementErr = document.createElement("h3");

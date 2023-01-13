@@ -74,7 +74,6 @@ const actionLike = () => {
   function getProdcutData(father) {
     let likeIdProduct = father.getAttribute("productId");
     if (!localStorage.getItem("likeProduct")) {
-      console.log("HOla muno");
       return;
     } else {
       let dbLikeTemp = JSON.parse(localStorage.getItem("likeProduct"));
@@ -86,7 +85,6 @@ const actionLike = () => {
     };
     if (dbLike.length === 0) {
       dbLike = [...dbLike, allInfo];
-      // console.log("antes", dbLike);
     } else {
       let valdate = false;
       dbLike.forEach((item) => {
@@ -95,12 +93,10 @@ const actionLike = () => {
         }
       });
       dbLike = [...dbLike, allInfo];
-      console.log("antes", dbLike);
       if (valdate) {
         let varTemp = dbLike.filter((item) => item.id !== allInfo.id);
         dbLike = varTemp;
         valdate = false;
-        // console.log("despues", dbLike);
       }
     }
 
