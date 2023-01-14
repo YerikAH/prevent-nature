@@ -10,7 +10,7 @@
       "Moringa tiene una gran cantidad de hierro, lo que puede prevenir la anemia.",
       "Es útil para regular la glucosa, además tiene efectos antibióticos."
     ],
-    "principal_image": "/assets/moringa-blog.jpg",
+    "principal_image": "../assets/moringa-blog.jpg",
     "second_image": "",
     "time": "15 de noviembre del 2022",
     "show": 0
@@ -31,7 +31,7 @@
       "Sal al gusto",
       "1 diente de ajo"
     ],
-    "principal_image": "/assets/receta-blog.jpg",
+    "principal_image": "../assets/receta-blog.jpg",
     "second_image": "",
     "time": "2 de enero del 2023",
     "show": 0
@@ -42,7 +42,7 @@
     "content-blog": "Moringa, puede ser usada como suplemento si eres un deportista ya sea nivel profesional o para aficionados, de hecho es muy recomendable, ya que podemos disfrutar de sus múltiples aportes nutricionales para nuestro organismo. Moringa, puede ser usado como bebida energizante natural, puedes preparar solo con moringa o también puedes usar un producto de BioLife “Café con moringa endulzado con stevia”, el hecho es que consumir moringa puede beneficiar para tener mejores entrenamientos y mejores resultados, por la energía y vitalidad que esta nos da. Por otro lado, si eres alguien que le gusta cocinar, puedes usar moringa en polvo ya que contiene aminoácidos esenciales que ayuda a la construcción de masa muscular, y también tiene un alto contenido proteico. Esto puede ayudara la recuperación de los entrenamientos, además gracias al contenido alto en hierro podemos mejorar la resistencia.",
     "content-second-blog": "",
     "list-blog": [],
-    "principal_image": "/assets/people-blog.jpg",
+    "principal_image": "../assets/people-blog.jpg",
     "second_image": "",
     "time": "5 de enero del 2023",
     "show": 0
@@ -53,7 +53,7 @@
     "content-blog": "La moringa, contiene sustancias anticancerígenas, hipotensoras, hipoglucemiantes y antibióticas, en general parece tener muchos beneficios, pero si queremos obtener los máximos beneficios, es clave no someter sus hojas a temperaturas mayores de 40 grados Celsius. Según estudios, se revelo que consumir moringa en una infusión en frío, es la mejor opción, ya que preserva los isotiocianatos que contiene la moringa. La sustancia llamada isotiocianato, favorece la detoxificación del cuerpo. Asimismo, incrementar los niveles de enzima de detoxificación de fase dos, lo que tiene un efecto benéfico para defender el cuerpo de sustancias nocivas que ingerimos todos los días.",
     "content-second-blog": "",
     "list-blog": [],
-    "principal_image": "/assets/sick-blog.jpg",
+    "principal_image": "../assets/sick-blog.jpg",
     "second_image": "",
     "time": "8 de enero del 2023",
     "show": 0
