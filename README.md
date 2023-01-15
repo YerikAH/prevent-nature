@@ -1,7 +1,5 @@
 # prevent-nature
 
-Hi, I'm Harvey👋.
-
 An electronic commerce, developed with HTML, CSS and JS, and some external libraries.
 
 ## Technologies used in the project 🛠 
