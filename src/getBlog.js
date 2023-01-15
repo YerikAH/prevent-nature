@@ -38,7 +38,7 @@ export default function blogData(
         $blogTime.setAttribute("class", "blog-notice-box-time");
         $blogTitle.setAttribute("class", "blog-notice-box-title");
         $blogDescription.setAttribute("class", "blog-notice-box-description");
-        $blogLink.setAttribute("href", "/public/blogSelect.html");
+        $blogLink.setAttribute("href", "./blogSelect.html");
         $blogLink.setAttribute("id-blog", `${item.id}`);
         $blogLink.setAttribute("class", "blog-notice-box-link");
 
